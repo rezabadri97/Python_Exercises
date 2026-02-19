@@ -13,4 +13,4 @@ print(f"Total Length:{F},System Report: {SH_P}, Total Pipes: {P_C}")
 if SH_P==True:
     print("Warning: Very short pipes detected in the system! Check installation limits.")
 else:
-    "Pass: All pipes are standard length."
+    print("Pass: All pipes are standard length.")
