@@ -14,5 +14,5 @@ class Curtainwall(Wall):
         wall_area=self.length*self.height*0.95
         return wall_area
 facade=Curtainwall("Main_Facade", 20.0, 4.0, 10.0)
-facade_Area=facade.get_area()
-print(f"Facade Area: {facade_Area}")
+facade_area=facade.get_area()
+print(f"Facade Area: {facade_area}")
